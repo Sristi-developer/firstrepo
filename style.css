@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+}
+.card{
+    width: 300px;
+    height: 550px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.image{
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.bottom{
+    padding: 20px;
+}
+.text > h1{
+    font-size: 25px ;
+    color: white;
+}
+.text > h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.text > p{
+    color: hsl(215, 51%, 70%);
+    padding-top: 10px;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color:  hsl(215, 32%, 27%);
+    margin-top: 20px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+
+}
+.profile p{
+    color:  hsl(215, 32%, 27%);
+    font-size: 18px;
+}
+.profile span{
+    color: hsl(0, 0%, 100%);
+}
+.profile span:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
